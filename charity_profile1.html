@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charity Profiles</title>
+    <link rel="stylesheet" href="charity_profile.css" />
+    <script src="./charity_profile.js" defer></script>
+  </head>
+  <body>
+    <h1>Charity 1</h1>
+    <header>
+      <nav class="navbar">
+        <ul class="navlist">
+          <li class="navitem">
+            <a href="index.html"> Homepage </a>
+          </li>
+          <li class="navitem">
+            <a href="charities.html"> Charities </a>
+          </li>
+          <li class="navitem">
+            <a href="charity_profile.html"> Charity Profiles </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="charity-info">
+        <div>
+          <h2>Charity Name</h2>
+          <p>Information here</p>
+        </div>
+        <div>
+          <h2>Charity 1 Mission</h2>
+          <p>Information about goals and how they plan to achieve them</p>
+          <p></p>
+        </div>
+
+        <div>
+          <h2>Charity 1 People and Contact Info</h2>
+          <div class="person">
+            <p>
+              John Doe <span class="arrow" data-index="0">&DownArrowBar; </span>
+            </p>
+            <ul class="contact-info">
+              <li>Email: johndoe@gmail.com</li>
+              <li>Phone: 541-867-5309</li>
+            </ul>
+          </div>
+          <div class="person">
+            <p>
+              Susan Stack
+              <span class="arrow" data-index="1">&DownArrowBar; </span>
+            </p>
+            <ul class="contact-info">
+              <li>Email: susanstack@gmail.com</li>
+              <li>Phone: 531-553-7426</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="volunteer-form">
+        <h2>Interested in volunteering?</h2>
+        <button class="volunteer">Volunteer Now</button>
+        <form>
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" /><br />
+          <label for="email">Email:</label><br />
+          <input type="text" id="email" name="email" /><br />
+          <label for="subject">Subject</label><br />
+          <input type="textarea" id="subject" name="subject" /><br />
+          <label for="email">Text:</label><br />
+          <input type="text" id="text" name="text" /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body {
+  display: grid;
+  justify-items: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1920px;
+  gap: 400px;
+}
+
+p {
+  max-width: 60ch;
+}
+
+.navlist {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  border-bottom: double;
+  margin-bottom: 10px;
+}
+
+.charity-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.contact-info {
+  display: none;
+}
+
+.contact-show {
+  display: block;
+}
+
+.arrow {
+  cursor: pointer;
+  padding: 20px;
+}
